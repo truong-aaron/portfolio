@@ -26,15 +26,15 @@ window.addEventListener("load", function () {
     let tl = gsap.timeline({
       scrollTrigger: {
         trigger: element,
-        start: "top 100%"
+        start: "top 90%"
       }
     });
     tl.set(lines, { autoAlpha: 1 });
     tl.from(lines, 1, {
       yPercent: 100,
       ease: Power3.out,
-      stagger: 0.55,
-      delay: 0.3
+      stagger: 0.10,
+      delay: 0.1
     });
   });
 });
