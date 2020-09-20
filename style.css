@@ -264,16 +264,21 @@ h4{
    color: white;
    text-align: center;
 }
-.foot{
-  width: 2.2%;
-  float: left;
-  margin-left: 17%;
+.fab, .mail{
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  margin-left: 10%;
 
 }
+/*for text if need
 .hi{
-  margin-left: 15%;
+  margin-left: 10%;
   font-family: avenir, sans-serif;
+  float: left;
+  font-size: 20px;
 }
+/* copyright*/
 .tm{
   font-family: avenir;
   font-size: 12px;

@@ -1,6 +1,6 @@
-*{
-	width: 100%;
-   	height: 100%;
+html{
+  width: 100%;
+  height: 100%;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
@@ -17,30 +17,7 @@
         background-position: 0% 50%;
     }
 }
-@font-face{
-    src: url(fonts/Avenir.ttc);
-    font-family: Avenir;
-}
 
-@font-face{
-    src: url(fonts/TTNorms-Medium.otf);
-    font-family: Norms-med;
-}
-
-@font-face{
-    src: url(fonts/TTNorms-Bold.otf);
-    font-family: Norms-bold;
-}
-
-@font-face{
-    src: url(fonts/Gopher-Bold.otf);
-    font-family: Gopher-bold;
-}
-
-@font-face{
-    src: url(fonts/Gopher-Medium.otf);
-    font-family: Gopher-med;
-}
 @font-face{
     src: url(fonts/alverata.ttf);
     font-family: ava;
@@ -49,87 +26,65 @@
     src: url(fonts/Karla-Italic[wght].ttf);
     font-family: karlai;
 }
-@font-face{
-    src: url(fonts/Garnett-Regular41ab1324.ttf);
-    font-family: gar;
-}
-/* ------------- nav bar--------------*/
-.menu-list {
-    position: relative;
-    min-width: 300px;
-    text-align: right;
-    right: 100px;
-    height: 120px;
-    float: right;
-    background: transparent;
+
+p{
+  margin: auto 5% ;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 15px;
 }
 
-.menu-list ul#menu {
-    position: relative;
-    width: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 95px;
-
-}
-#menu li {
-    list-style: none;
-    padding: 10px 25px;
-    margin: 0 0.3vh;
-
-}
-#menu li a {
-  text-decoration: none;
-  font-size: 18px;
-  text-transform: uppercase;
-  color: white;
-}
-#menu li a:hover{
-  color: #A799FF;
+.main-box{
+  background-color: #74E8B0;
+  padding: 15px;
+    width: 100%;
+    max-width: 500px;    
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;top: 50%;
+    border-radius: 10px;
+    box-shadow: 
+    -5px 5px #FDA4E6,
+    -10px 10px #A799FF
+    ;
 }
 
-
-/*strikethrough effect for nav*/
-.line2 {
-  position: relative;
-  display: block;
-  cursor: pointer;
-}
-
-.line2:before, .line:after {
-  content: '';
+.close{
   position: absolute;
-  width: 0%;
-  height: 1px;
-  top: 50%;
-  margin-top: -0.5px;
-  background: #74E8B0;
+  top: 10px;
+  right: 15px;
+  width: 20px;
+  height: 20px;
 }
 
-.line2:before {
-  left: -2.5px;
+.content{
+  padding-bottom: 5px;
 }
-.line2:after {
-  right: 2.5px;
-  background: #74E8B0;
-  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+.work{
+  font-family: ava;
 }
 
-.line2:hover:before {
-  background: #74E8B0;
-  width: 100%;
-  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+.fab, .mail{
+  font-size: 20px;
+  padding: 10px;
+  color: #25201D;
 }
 
-.line2:hover:after {
-  background: transparent;
-  width: 100%;
-  transition: 0s;
+img {
+  position: absolute;
+  left: 0;
+  top: 20;
+  display: none;
+  width: 200px;
+  height: 200px;
 }
-
-.ontop{
-   -webkit-text-decoration-line: overline; /* Safari */
-   text-decoration-line: overline; 
+.name{
+  position: relative;
+  font-family: ava;
+  color: #940DFF;
+  text-decoration: underline;
 }
-
+.name:hover > img{
+   display: block;
+   bottom: 100%;
+}
