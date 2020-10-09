@@ -38,6 +38,22 @@
     src: url(fonts/Garnett-Regular41ab1324.ttf);
     font-family: gar;
 }
+
+@font-face{
+    src: url(fonts/Visuelt/VisueltPro-Regular.ttf);
+    font-family: vis-reg;
+}
+
+@font-face{
+    src: url(fonts/Visuelt/VisueltPro-Medium.ttf);
+    font-family: vis-med;
+}
+
+@font-face{
+    src: url(fonts/Visuelt/VisueltPro-MediumItalic.ttf);
+    font-family: vis-medi;
+}
+
 .whitespace {
       width: 100%;
       height: 100px;
@@ -224,25 +240,26 @@ img{
   width: 80%;
   margin-left: -3%;
 }
+
 h4{
-  font-family: karla;
+  font-family: vis-reg;
   margin-left: -1.5%;
 
 }
 
 .side{ /*dexcom title/info*/
   margin-left: 15%;
-  font-family: karla;
+  font-family: vis-reg;
   font-size: 18px;
 }
 .side1{/*eco tracker title/info */
    margin-left: 29%;
-  font-family: karla;
+  font-family: vis-reg;
   font-size: 18px;
 }
 .side2{  /*cupofjoe title/info */
    margin-left: 38%;
-  font-family: karla;
+  font-family: vis-reg;
   font-size: 18px;
 }
 
@@ -259,12 +276,12 @@ h4{
   }
   .side1{/*eco tracker title/info */
    margin-left: 12%;
-  font-family: karla;
+  font-family: vis-reg;
   font-size: 15px;
 }
   .side2{  /*cupofjoe title/info */
   margin-left: 20%;
-  font-family: karla;
+  font-family: vis-reg;
   font-size: 15px;
  }
 }
@@ -280,7 +297,8 @@ h4{
   font-size: 20px;
   padding: 10px;
   color: white;
-  margin-left: 10%;
+  display: inline-block;
+  text-align: center;
 
 }
 /*for text if need
