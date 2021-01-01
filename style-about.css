@@ -1,5 +1,5 @@
 *{
-  background-color: #121212 !important;
+  background-color: #121212;
 }
 @font-face{
 	src: url(fonts/Avenir.ttc);
@@ -37,6 +37,20 @@
     src: url(fonts/Garnett-Regular41ab1324.ttf);
     font-family: gar;
 }
+@font-face{
+    src: url(fonts/Visuelt/VisueltPro-Regular.ttf);
+    font-family: vis-reg;
+}
+
+@font-face{
+    src: url(fonts/Visuelt/VisueltPro-Medium.ttf);
+    font-family: vis-med;
+}
+
+@font-face{
+    src: url(fonts/Visuelt/VisueltPro-MediumItalic.ttf);
+    font-family: vis-medi;
+}
 
 .whitespace {
       width: 100%;
@@ -62,11 +76,11 @@
     justify-content: center;
     margin-left: 5%;
 }
-.logo{
+img.logo{
   width: 13%;
   margin-top: 6%;
 }
-.logo:hover{
+img.logo:hover{
   content: url('https://res.cloudinary.com/dk5kblf1w/image/upload/v1600497881/logo_odvm7f.png');
   width: 13%;
 }
@@ -168,17 +182,9 @@
 }
 
 .content-about{
-  font-family: ava;
-}
-
-@media(max-width: 768px){
-  .img-pic{
-  width: 60%;
-  margin-left: 20%;
-}
-.content-about{
-  font-size: 15px;
   margin-top: 10%;
   padding: 10px;
-}
+  color: white;
+  font-family: vis-reg;
+  font-size: 16px;
 }
