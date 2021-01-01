@@ -1,5 +1,5 @@
 *{
-  background-color: #wh !important;
+  background-color: #121212 !important;
 }
 @font-face{
 	src: url(fonts/Avenir.ttc);
@@ -51,11 +51,11 @@
 .nav-content {
     display: inline-block;
     align-items: center;
-    background: white;
+    background: #121212;
     font-family: dmono, sans-serif;
     width: 100%;
 }
-/*
+
 .nav-logo {
     position: relative;
     display: inline-block;
@@ -70,7 +70,7 @@
   content: url('https://res.cloudinary.com/dk5kblf1w/image/upload/v1600497881/logo_odvm7f.png');
   width: 13%;
 }
-*/
+
 .menu-list {
     position: relative;
     display: inline-block;
@@ -100,7 +100,7 @@
   text-decoration: none;
   font-size: 18px;
   text-transform: uppercase;
-  color: black;
+  color: white;
 }
 #menu li a:hover{
   color: #A799FF;
