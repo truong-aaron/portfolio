@@ -188,3 +188,54 @@ img.logo:hover{
   font-family: vis-reg;
   font-size: 16px;
 }
+
+/* ------------- footer--------------*/
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   margin-left: 5%;
+}
+.fab, .mail{
+  font-size: 25px;
+  padding: 10px;
+  color: white;
+
+}
+/*for text if need
+.hi{
+  margin-left: 10%;
+  font-family: avenir, sans-serif;
+  float: left;
+  font-size: 20px;
+}
+/* copyright*/
+.tm{
+  font-family: avenir;
+  font-size: 12px;
+  margin-left: -85%;
+  color: #525252;
+}
+@media(max-width: 768px){
+  .hi{
+    margin-left: 10%;
+  }
+
+  .fab, .mail{
+  font-size: 25px;
+  padding: 10px;
+  color: white;
+  margin-left: 3%;
+  }
+  .footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   margin-left: -1%;
+  }
+}
+    
