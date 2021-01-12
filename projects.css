@@ -141,6 +141,17 @@ font-family: 'Hammersmith One', sans-serif;
  font-size: 23px;
  margin-left:8%;
 }
+.okay{
+  display: inline-block;
+  margin-top: -45%;
+  float: left;
+  margin-left: 45%;
+  font-size: 22px;
+}
+.okay1{
+  color: #A6C7C7;
+  font-size: 30px;
+}
 
 /* ------------- footer--------------*/
 .footer {
