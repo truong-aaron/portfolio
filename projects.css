@@ -1,0 +1,172 @@
+*{
+  background-color: white;
+  font-family: Avenir, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+font-family: 'Hammersmith One', sans-serif;
+
+@font-face{
+    src: url(fonts/Avenir.ttc);
+    font-family: Avenir;
+}
+
+.whitespace {
+      width: 100%;
+      height: 100px;
+}
+.whitespace1 {
+      width: 100%;
+      height: 50px;
+}
+
+/* ------------- nav bar--------------*/
+/* ------------- nav bar--------------*/
+.nav-content {
+    display: inline-block;
+    align-items: center;
+    background: transparent;
+    font-family: dmono, sans-serif;
+    width: 100%;
+}
+
+.nav-logo {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 5%;
+}
+.logo{
+  width: 13%;
+  margin-top: 6%;
+}
+.logo:hover{
+  content: url('https://res.cloudinary.com/dk5kblf1w/image/upload/v1600497881/logo_odvm7f.png');
+  width: 13%;
+}
+
+.menu-list {
+    position: relative;
+    display: inline-block;
+    min-width: 300px;
+    text-align: right;
+    right: 100px;
+    height: 120px;
+    float: right;
+}
+
+.menu-list ul#menu {
+    position: relative;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95px;
+
+}
+#menu li {
+    list-style: none;
+    padding: 10px 25px;
+    margin: 0 0.3vh;
+
+}
+#menu li a {
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: black;
+}
+#menu li a:hover{
+  color: #A799FF;
+}
+
+
+/*strikethrough effect for nav*/
+.line2 {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.line2:before, .line:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #74E8B0;
+}
+
+.line2:before {
+  left: -2.5px;
+}
+.line2:after {
+  right: 2.5px;
+  background: #74E8B0;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.line2:hover:before {
+  background: #74E8B0;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.line2:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+
+.ontop{
+   -webkit-text-decoration-line: overline; /* Safari */
+   text-decoration-line: overline; 
+}
+/*-------------- Opening title ------------*/
+
+.title{
+  font-family: 'Hammersmith One';
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+.title2{
+  font-family: 'Hammersmith One';
+  letter-spacing: 2px;
+  margin-left:5%;
+
+}
+.text1{
+ font-size: 23px;
+ margin-left:8%;
+}
+
+/* ------------- footer--------------*/
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: black;
+   text-align: center;
+}
+.fab, .mail{
+  font-size: 25px;
+  padding: 10px;
+  color: black;
+
+}
+/*for text if need
+.hi{
+  margin-left: 10%;
+  font-family: avenir, sans-serif;
+  float: left;
+  font-size: 20px;
+}
+/* copyright
+.tm{
+  font-family: avenir;
+  font-size: 12px;
+  margin-left: -85%;
+  color: #525252;
+}
