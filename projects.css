@@ -131,6 +131,7 @@ font-family: 'Hammersmith One', sans-serif;
   letter-spacing: 2px;
   font-size: 50px;
 }
+
 .title2{
   font-family: 'Hammersmith One';
   letter-spacing: 2px;
@@ -141,6 +142,10 @@ font-family: 'Hammersmith One', sans-serif;
  font-size: 23px;
  margin-left:8%;
 }
+.text3{
+  font-size: 18px;
+  margin-left:14%;
+}
 .okay{
   display: inline-block;
   margin-top: -45%;
@@ -150,7 +155,7 @@ font-family: 'Hammersmith One', sans-serif;
 }
 .okay1{
   color: #A6C7C7;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 /* ------------- footer--------------*/
