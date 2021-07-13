@@ -11,50 +11,28 @@
 }
 
 @font-face{
-    src: url(fonts/TTNorms-Medium.otf);
-    font-family: Norms-med;
-}
-
-@font-face{
-    src: url(fonts/TTNorms-Bold.otf);
-    font-family: Norms-bold;
-}
-
-@font-face{
-    src: url(fonts/Gopher-Bold.otf);
+    src: url(fonts/GopherDisplay-Bold.otf);
     font-family: Gopher-bold;
 }
 
 @font-face{
-    src: url(fonts/Gopher-Medium.otf);
+    src: url(fonts/GopherDisplay-Bold.otf);
+    font-family: Gopher-bold;
+}
+
+@font-face{
+    src: url(fonts/GopherDisplay-Medium.otf);
     font-family: Gopher-med;
 }
+
 @font-face{
-    src: url(fonts/alverata.ttf);
-    font-family: ava;
-}
-@font-face{
-    src: url(fonts/Karla-Italic[wght].ttf);
-    font-family: karlai;
-}
-@font-face{
-    src: url(fonts/Garnett-Regular41ab1324.ttf);
-    font-family: gar;
+    src: url(fonts/GTWalsheimPro-Medium.ttf);
+    font-family: GT-med;
 }
 
 @font-face{
-    src: url(fonts/Visuelt/VisueltPro-Regular.ttf);
-    font-family: vis-reg;
-}
-
-@font-face{
-    src: url(fonts/Visuelt/VisueltPro-Medium.ttf);
-    font-family: vis-med;
-}
-
-@font-face{
-    src: url(fonts/Visuelt/VisueltPro-MediumItalic.ttf);
-    font-family: vis-medi;
+    src: url(fonts/GTWalsheimPro-Regular.ttf);
+    font-family: GT-reg;
 }
 
 .whitespace {

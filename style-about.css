@@ -1,0 +1,61 @@
+/* font faces */
+@font-face{
+    src: url(fonts/Avenir.ttc);
+    font-family: Avenir;
+}
+
+@font-face{
+    src: url(fonts/GopherDisplay-Bold.otf);
+    font-family: Gopher-bold;
+}
+
+@font-face{
+    src: url(fonts/GopherDisplay-Bold.otf);
+    font-family: Gopher-bold;
+}
+
+@font-face{
+    src: url(fonts/GopherDisplay-Medium.otf);
+    font-family: Gopher-med;
+}
+
+@font-face{
+    src: url(fonts/GTWalsheimPro-Medium.ttf);
+    font-family: GT-med;
+}
+
+@font-face{
+    src: url(fonts/GTWalsheimPro-Regular.ttf);
+    font-family: GT-reg;
+}
+
+/* typography */
+h1{
+    font-family: Gopher-med, Gopher-bold;
+    font-size: 50px;
+}
+
+h2{
+    font-family: Avenir;
+    font-size: 80px;
+}
+
+h3{
+    font-family: Avenir;
+    font-size: 90px;
+}
+
+h4{
+    font-family: Avenir;
+    font-size: 100px;
+}
+
+h5{
+    font-family: Avenir;
+    font-size: 45px;
+}
+
+p{
+    font-family: Avenir;
+    font-size: 35px;
+}
