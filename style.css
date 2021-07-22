@@ -5,6 +5,7 @@
   color: #6364A5 !important;
 }
 
+/* font faces */
 @font-face{
     src: url(fonts/Avenir.ttc);
     font-family: Avenir;
@@ -33,6 +34,27 @@
 @font-face{
     src: url(fonts/GTWalsheimPro-Regular.ttf);
     font-family: GT-reg;
+}
+
+/* typography */
+h1{
+    font-family: Gopher-med, Gopher-bold;
+    font-size: 50px;
+}
+
+h2{
+    font-family: GT-reg;
+    font-size: 40px;
+}
+
+h3{
+    font-family: Avenir;
+    font-size: 45px;
+}
+
+h4{
+    font-family: Avenir;
+    font-size: 35px;
 }
 
 .whitespace {
