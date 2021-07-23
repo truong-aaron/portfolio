@@ -1,0 +1,197 @@
+/* MAIN HOME STYLE CSS*/
+
+*{
+  background-color: #E7E0EA !important;
+}
+
+/* font faces */
+@font-face{
+    src: url(fonts/Avenir.ttc);
+    font-family: Avenir;
+}
+
+@font-face{
+    src: url(fonts/GopherDisplay-Bold.otf);
+    font-family: Gopher-bold;
+}
+
+@font-face{
+    src: url(fonts/GopherDisplay-Bold.otf);
+    font-family: Gopher-bold;
+}
+
+@font-face{
+    src: url(fonts/GopherDisplay-Medium.otf);
+    font-family: Gopher-med;
+}
+
+@font-face{
+    src: url(fonts/GTWalsheimPro-Medium.ttf);
+    font-family: GT-med;
+}
+
+@font-face{
+    src: url(fonts/GTWalsheimPro-Regular.ttf);
+    font-family: GT-reg;
+}
+
+/* typography *
+h1{
+    font-family: Gopher-med, Gopher-bold;
+    font-size: 50px;
+}
+
+h2{
+    font-family: GT-reg;
+    font-size: 40px;
+}
+
+h3{
+    font-family: Avenir;
+    font-size: 45px;
+}
+
+h4{
+    font-family: Avenir;
+    font-size: 35px;
+}
+*/
+.whitespace {
+      width: 100%;
+      height: 100px;
+}
+.whitespace1 {
+      width: 100%;
+      height: 50px;
+}
+
+/* ------------- nav bar--------------*/
+.nav-content {
+    display: inline-block;
+    align-items: center;
+    font-family: Gopher-bold, sans-serif;
+    width: 100%;
+}
+
+.nav-logo {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 6%;
+}
+.logo{
+  width: 13%;
+  margin-top: 6%;
+}
+.logo:hover{
+  content: url('https://res.cloudinary.com/dk5kblf1w/image/upload/v1600497881/logo_odvm7f.png');
+  width: 13%;
+}
+
+/* ------------- end of logo for home --------------*/
+.menu-list {
+    position: relative;
+    display: inline-block;
+    min-width: 300px;
+    text-align: right;
+    right: 100px;
+    height: 120px;
+    float: right;
+}
+
+.menu-list ul#menu {
+    position: relative;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95px;
+
+}
+#menu li {
+    list-style: none;
+    padding: 10px 25px;
+    margin: 0 0.3vh;
+
+}
+#menu li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #6364A5;
+}
+#menu li a:hover{
+  color: #A799FF;
+}
+@media(max-width: 768px){
+  .nav-logo{
+    display: none;
+  }
+  .logo{
+    display: none;
+  }
+  .menu-list{
+    right: 10px;
+  }
+}
+
+/*strikethrough effect for nav*/
+.line2 {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.line2:before, .line:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 80%; /* change where line is */
+  margin-top: -0.5px;
+  background: #74E8B0;
+}
+
+.line2:before {
+  left: -2.5px;
+}
+.line2:after {
+  right: 2.5px;
+  background: #74E8B0;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.line2:hover:before {
+  background: #74E8B0;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.line2:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+
+.ontop{ /*where the word is underlined or over*/
+   -webkit-text-decoration-line: underline; /* Safari */
+   text-decoration-line: underline; 
+}
+
+/*-----------------DEXCOM----------------/
+/* ------------- footer--------------*
+.footer {
+ float: left;
+ margin-left: 3%;
+}
+.foot_text{
+ font-family: Avenir;
+ font-size: 20px;
+ color: #2F2951;
+}
+.foot_text2{
+ font-family: Avenir;
+ font-size: 15px;
+ color: #2F2951;
+}
+
+
