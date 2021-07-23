@@ -1,4 +1,4 @@
-/* MAIN STYLE CSS*/
+/* MAIN HOME STYLE CSS*/
 
 *{
   background-color: #E7E0EA !important;
@@ -331,7 +331,15 @@ section:nth-child(3) {
   font-stretch: expanded;
 }
 
-
+@media(max-width: 768px){
+  .text_show{
+    display: none;
+  }
+  .text_space{
+    width: 100%;
+    height: 50px;
+  }
+}
 /* ------------- footer--------------*/
 .footer {
  float: left;
