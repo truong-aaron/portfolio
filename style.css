@@ -354,6 +354,21 @@ section:nth-child(3) {
    float: right;
    margin-right: 3%;
   }
+} 
+@media screen and (min-width: 1900px) {
+  .container {
+    width: 1870px;
+  }
+  .img_home{
+   width: 10%;
+   float: right;
+   margin-right: 5%;
+  }
+  .img_home2{
+   width: 10%;
+   float: right;
+   margin-right: 3%;
+  }
 }
 /* ------------- footer--------------*/
 .footer {
