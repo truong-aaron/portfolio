@@ -340,6 +340,21 @@ section:nth-child(3) {
     height: 50px;
   }
 }
+@media screen and (min-width: 1600px) {
+  .container {
+    width: 1570px;
+  }
+  .img_home{
+   width: 15%;
+   float: right;
+   margin-right: 5%;
+  }
+  .img_home2{
+   width: 15%;
+   float: right;
+   margin-right: 3%;
+  }
+}
 /* ------------- footer--------------*/
 .footer {
  float: left;
