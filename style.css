@@ -297,12 +297,22 @@ section:nth-child(3) {
  width: 20%;
  float: right;
  margin-right: 5%;
-
+}
+.img_home2{
+ width: 20%;
+ float: right;
+ margin-right: 3%;
 }
 
 .title{
   font-family: Gopher-med;
   color: #6364A5;
+  font-size: 25px;
+  margin-left: 3%;
+}
+.title2{
+  font-family: Gopher-med;
+  color: #4D4A65;
   font-size: 25px;
   margin-left: 3%;
 }
@@ -313,66 +323,29 @@ section:nth-child(3) {
   margin-left: 13%;
   font-stretch: expanded;
 }
-
-
-/*-------- mobile --------*/
+.subtitle2{
+  font-family: GT-reg;;
+  color: #4D4A65;
+  font-size: 20px;
+  margin-left: 13%;
+  font-stretch: expanded;
 }
-@media(max-width: 768px){
-  img{
-    width: 100%;
-  }
-  h4{
-    font-size: 15px;
-    margin-left: 1%;
-  }
+
 
 /* ------------- footer--------------*/
 .footer {
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color: white;
-   text-align: center;
-   margin-left: 5%;
+ float: left;
+ margin-left: 3%;
 }
-.fab, .mail{
-  font-size: 25px;
-  padding: 10px;
-  color: white;
+.foot_text{
+ font-family: Avenir;
+ font-size: 20px;
+ color: #2F2951;
+}
+.foot_text2{
+ font-family: Avenir;
+ font-size: 15px;
+ color: #2F2951;
+}
 
-}
-/*for text if need
-.hi{
-  margin-left: 10%;
-  font-family: avenir, sans-serif;
-  float: left;
-  font-size: 20px;
-}
-/* copyright*/
-.tm{
-  font-family: avenir;
-  font-size: 12px;
-  margin-left: -85%;
-  color: #525252;
-}
-@media(max-width: 768px){
-  .hi{
-    margin-left: 10%;
-  }
 
-  .fab, .mail{
-  font-size: 25px;
-  padding: 10px;
-  color: white;
-  margin-left: 3%;
-  }
-  .footer {
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color: white;
-   text-align: center;
-   margin-left: -1%;
-  }
-}
-    
