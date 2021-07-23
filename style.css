@@ -2,7 +2,6 @@
 
 *{
   background-color: #E7E0EA !important;
-  color: #6364A5 !important;
 }
 
 /* font faces */
@@ -36,7 +35,7 @@
     font-family: GT-reg;
 }
 
-/* typography */
+/* typography *
 h1{
     font-family: Gopher-med, Gopher-bold;
     font-size: 50px;
@@ -56,7 +55,7 @@ h4{
     font-family: Avenir;
     font-size: 35px;
 }
-
+*/
 .whitespace {
       width: 100%;
       height: 100px;
@@ -70,8 +69,7 @@ h4{
 .nav-content {
     display: inline-block;
     align-items: center;
-    background: #121212;
-    font-family: dmono, sans-serif;
+    font-family: Gopher-bold, sans-serif;
     width: 100%;
 }
 
@@ -79,7 +77,7 @@ h4{
     position: relative;
     display: inline-block;
     justify-content: center;
-    margin-left: 5%;
+    margin-left: 6%;
 }
 .logo{
   width: 13%;
@@ -90,6 +88,7 @@ h4{
   width: 13%;
 }
 
+/* ------------- end of logo for home --------------*/
 .menu-list {
     position: relative;
     display: inline-block;
@@ -117,9 +116,8 @@ h4{
 }
 #menu li a {
   text-decoration: none;
-  font-size: 18px;
-  text-transform: uppercase;
-  color: white;
+  font-size: 20px;
+  color: #6364A5;
 }
 #menu li a:hover{
   color: #A799FF;
@@ -148,7 +146,7 @@ h4{
   position: absolute;
   width: 0%;
   height: 1px;
-  top: 50%;
+  top: 80%; /* change where line is */
   margin-top: -0.5px;
   background: #74E8B0;
 }
@@ -174,36 +172,42 @@ h4{
   transition: 0s;
 }
 
-.ontop{
-   -webkit-text-decoration-line: overline; /* Safari */
-   text-decoration-line: overline; 
+.ontop{ /*where the word is underlined or over*/
+   -webkit-text-decoration-line: underline; /* Safari */
+   text-decoration-line: underline; 
 }
 
 
 /* ------------- home intro--------------*/
 .container{
-  margin-left: 1%;
+  margin-left: 2%;
   color: white;
 }
 h1{
-  font-size: 50px;
-  font-family: gar;
+  font-family: Gopher-med;
+  color: #2F2951;
+  font-size: 25px;
 }
 .intro{
-  font-size: 40px;
-  font-family: gar;
+  font-size: 25px;
+  font-family: Gopher-med;
+
 
 }
 .toabout{
-  color: white;
+   color: #2F2951;
 }
 .toabout:hover{
-  color:#74E8B0;
+  color:#366086;
   text-decoration: none;
 }
 .intro2{
-  font-size: 20px;
+  font-family: Gopher-med;
+  color: #2F2951;
+  font-size: 25px;
 }
+
+
 
 .text-focus-in {
   -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -248,7 +252,7 @@ h1{
 /*------end of animation--------*/
 @media(max-width: 768px){
   h1{
-    font-size: 35px;
+    font-size: 20px;
   }
   .intro{
     font-size: 20px;
@@ -288,70 +292,30 @@ section:nth-child(3) {
 }
 
 
-/* ------------- body--------------*/
-img{
-  width: 80%;
-  margin-left: -3%;
-}
-
-h4{
-  font-family: vis-reg;
-  margin-left: -1.5%;
+/* ----------------  MAIN body-------------------------*/
+.img_home{
+ width: 20%;
+ float: right;
+ margin-right: 5%;
 
 }
 
-.side{ /*dexcom title/info*/
-  margin-left: 18%;
-  font-family: vis-reg;
-  font-size: 18px;
+.title{
+  font-family: Gopher-med;
+  color: #6364A5;
+  font-size: 25px;
+  margin-left: 3%;
+}
+.subtitle{
+  font-family: GT-reg;;
+  color: #6364A5;
+  font-size: 20px;
+  margin-left: 13%;
+  font-stretch: expanded;
 }
 
-.side1{/*eco tracker title/info */
-   margin-left: 32%;
-  font-family: vis-reg;
-  font-size: 17px;
-}
-.side3{ /*dexcom title/info*/
-  margin-left: 19%;
-  font-family: vis-reg;
-  font-size: 17px;
-}
-.side2{  /*cupofjoe title/info */
-   margin-left: 36%;
-  font-family: vis-reg;
-  font-size: 18px;
-}
-@media (min-width: 320px) and (max-width: 480px) {
- img{
-    width: 100%;
-  }
-  h4{
-    font-size: 12px;
-    margin-left: 25%;
-  }
-  .side{
-  font-size: 10px;
-  margin-left: 15%;
 
-  }
-  .side1{/*eco tracker title/info */
-  margin-left: 12%;
-  font-family: vis-reg;
-  font-size: 10px;
-}
-  .side2{  /*cupofjoe title/info */
-  margin-left: 15%;
-  font-family: vis-reg;
-  font-size: 10px;
- }
- .side3{ /*hyundai*/
-  margin-left: 15%;
-  font-family: vis-reg;
-  font-size: 10px;
- }
-}
-  
-  
+/*-------- mobile --------*/
 }
 @media(max-width: 768px){
   img{
@@ -361,26 +325,6 @@ h4{
     font-size: 15px;
     margin-left: 1%;
   }
-  .side{
-    font-size: 15px;
-
-  }
-  .side1{/*eco tracker title/info */
-  margin-left: 12%;
-  font-family: vis-reg;
-  font-size: 15px;
-}
-  .side2{  /*cupofjoe title/info */
-  margin-left: 20%;
-  font-family: vis-reg;
-  font-size: 15px;
- }
- .side3{ /*hyundai*/
-  margin-left: 12%;
-  font-family: vis-reg;
-  font-size: 15px;
- }
-}
 
 /* ------------- footer--------------*/
 .footer {
