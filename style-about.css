@@ -242,6 +242,32 @@ h4{
   top: 27%;
   left: 20%;
 }
+
+@media(max-width: 768px){
+ .text1{
+  color: #DA6D87;
+  font-family: Gopher-med;
+  font-size: 13px;
+  text-align: left;
+}
+.text2{
+  color: #252E80;
+  font-family:  Gopher-med;
+  font-size: 10px;
+  text-align: left;
+}
+.text3{
+  color: #802288;
+  font-family:  Gopher-med;
+  font-size: 13px;
+  text-align: left;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 15%;
+}
+}
+
 /* ------------- footer--------------*/
 .footer {
  float: left;
