@@ -34,6 +34,14 @@
     src: url(fonts/GTWalsheimPro-Regular.ttf);
     font-family: GT-reg;
 }
+@font-face{
+    src: url(fonts/AvenirCondensed.ttc);
+    font-family: AvenirC;
+}
+@font-face{
+    src: url(fonts/AvenirNext.ttc);
+    font-family: AvenirN;
+}
 
 /* typography *
 h1{
@@ -193,5 +201,14 @@ h4{
  font-size: 15px;
  color: #2F2951;
 }
-
+/* ------------- Hyundai--------------*/ 
+.title{
+	font-family: AvenirN, sans-serif;
+	font-size: 70px;
+}
+.titleH{
+	font-family: AvenirC, sans-serif;
+	font-size: 50px;
+	
+}
 
