@@ -281,5 +281,12 @@ h4{
   font-size: 25px;
   text-align: left;
 }
-
+/*-----------------eco-tracker----------------*/
+.titleECO{
+  font-family: AvenirNB, sans-serif;
+  font-size: 50px;
+  color: #33B083;
+  float: left;
+  margin-left: 10%;
+}
 
