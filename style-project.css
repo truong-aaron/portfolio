@@ -199,7 +199,7 @@ h4{
   font-style: italic;
 
 }
-/*-----------------DEXCOM----------------/
+
 /* ------------- footer--------------*
 .footer {
  float: left;
@@ -281,10 +281,13 @@ h4{
   font-size: 25px;
   text-align: left;
 }
-
-.text69{
-    font-family: AvenirNH, sans-serif;
-    font-size: 25px;
+/*-----------------ECOTRACKER----------------*/
+.titleECO{
+  font-family: AvenirNB, sans-serif;
+  font-size: 50px;
+  color: #33B083;
+  float: left;
+  margin-left: 12%;
 }
 
 
