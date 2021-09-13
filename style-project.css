@@ -1,7 +1,8 @@
 /* MAIN HOME STYLE CSS*/
 
 *{
-  background-color: #E7E0EA !important;
+  background-color: white !important;
+  font-family: Avenir, sans-serif;
 }
 
 /* font faces */
@@ -35,13 +36,18 @@
     font-family: GT-reg;
 }
 @font-face{
-    src: url(fonts/AvenirCondensed.ttc);
-    font-family: AvenirC;
+    src: url(fonts/AvenirNext-Bold.ttf);
+    font-family: AvenirNB;
 }
 @font-face{
-    src: url(fonts/AvenirNext.ttc);
-    font-family: AvenirN;
+    src: url(fonts/AvenirNext-Heavy.ttf);
+    font-family: AvenirNH;
 }
+@font-face{
+    src: url(fonts/AvenirNext-DemiBold.ttf);
+    font-family: AvenirDB;
+}
+
 
 /* typography *
 h1{
@@ -185,6 +191,14 @@ h4{
    text-decoration-line: underline; 
 }
 
+.nextp{
+  color: #6175F6;
+  float:right;
+  text-decoration-line: underline;
+  font-size: 22px;
+  font-style: italic;
+
+}
 /*-----------------DEXCOM----------------/
 /* ------------- footer--------------*
 .footer {
@@ -201,14 +215,71 @@ h4{
  font-size: 15px;
  color: #2F2951;
 }
+
 /* ------------- Hyundai--------------*/ 
 .title{
-	font-family: AvenirN, sans-serif;
-	font-size: 70px;
+	font-family: AvenirDB, sans-serif;
+	font-size: 60px;
 }
 .titleH{
-	font-family: AvenirC, sans-serif;
+	font-family: AvenirNB, sans-serif;
 	font-size: 50px;
-	
+  color: #366086;
+  float: left;
+
 }
+.titleH{
+  font-family: AvenirNB, sans-serif;
+  font-size: 50px;
+  color: #366086;
+  float: left;
+}
+.titleH2{
+  font-family: AvenirNB, sans-serif;
+  font-size: 50px;
+  color: #366086;
+  float: left;
+  margin-left: 12%;
+}
+.hal{
+  float: left;
+  margin-left: 8%;
+}
+.text1{
+  margin-left: 20%;
+  font-size: 25px;
+}
+.imgH{
+  width:35%;
+  margin-left: 40%;
+}
+
+/*-----------------DEXCOM----------------*/
+.titleD{
+  font-family: AvenirNB, sans-serif;
+  font-size: 50px;
+  color: #85D273;
+  float: left;
+}
+.titleD2{
+  font-family: AvenirNB, sans-serif;
+  font-size: 50px;
+  color: #85D273;
+  float: left;
+  margin-left: 12%;
+}
+.titleD3{
+  font-family: AvenirNB, sans-serif;
+  font-size: 30px;
+  color: black;
+  float: left;
+  margin-left: 12%;
+  text-decoration-line: underline;
+}
+.text{
+  margin-left: 10%;
+  font-size: 25px;
+  text-align: left;
+}
+
 
