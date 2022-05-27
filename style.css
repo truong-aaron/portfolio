@@ -11,28 +11,38 @@
 }
 
 @font-face{
-    src: url(fonts/GopherDisplay-Bold.otf);
+    src: url(fonts/GopherDisplay-Bold.ttf);
     font-family: Gopher-bold;
 }
 
 @font-face{
-    src: url(fonts/GopherDisplay-Bold.otf);
-    font-family: Gopher-bold;
-}
-
-@font-face{
-    src: url(fonts/GopherDisplay-Medium.otf);
+    src: url(fonts/GopherDisplay-Medium.ttf);
     font-family: Gopher-med;
 }
 
 @font-face{
-    src: url(fonts/GTWalsheimPro-Medium.ttf);
-    font-family: GT-med;
+    src: url(fonts/GraphikBold.otf);
+    font-family: GraphB;
 }
 
 @font-face{
-    src: url(fonts/GTWalsheimPro-Regular.ttf);
-    font-family: GT-reg;
+    src: url(fonts/GraphikLight.otf);
+    font-family: GraphL;
+}
+
+@font-face{
+    src: url(fonts/GTWalsheimPro-Black.ttf);
+    font-family: GTblack;
+}
+
+@font-face{
+    src: url(fonts/GT-Walsheim-Pro-Light.ttf);
+    font-family: GTlight;
+}
+
+@font-face{
+    src: url(fonts/GT-Walsheim-Pro-Regular.ttf);
+    font-family: GTreg;
 }
 
 /* typography *
@@ -303,6 +313,14 @@ section:nth-child(3) {
  float: right;
  margin-right: 3%;
 }
+/*for missioncure img*/
+.img_home3{ 
+ width: 23%;
+ float: right;
+ margin-right: 3%;
+ margin-top: 2%;
+} 
+
 
 .title{
   font-family: Gopher-med;
@@ -317,14 +335,14 @@ section:nth-child(3) {
   margin-left: 3%;
 }
 .subtitle{
-  font-family: GT-reg;;
+  font-family: GTlight;
   color: #6364A5;
   font-size: 20px;
   margin-left: 13%;
   font-stretch: expanded;
 }
 .subtitle2{
-  font-family: GT-reg;;
+  font-family: GTlight;
   color: #4D4A65;
   font-size: 20px;
   margin-left: 13%;
@@ -354,6 +372,12 @@ section:nth-child(3) {
    float: right;
    margin-right: 3%;
   }
+  .img_home3{ 
+   width: 13%;
+   float: right;
+   margin-right: 3%;
+   margin-top: 2%;
+  }  /*for missioncure img*/
 } 
 @media screen and (min-width: 1900px) {
   .container {
@@ -369,6 +393,12 @@ section:nth-child(3) {
    float: right;
    margin-right: 3%;
   }
+  .img_home3{ 
+   width: 10%;
+   float: right;
+   margin-right: 3%;
+   margin-top: 2%;
+ } /*for missioncure img*/
 }
 /* ------------- footer--------------*/
 .footer {
