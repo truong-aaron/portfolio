@@ -1,9 +1,9 @@
 /* MAIN HOME STYLE CSS*/
 
 *{
-  background-color: white !important;
-  font-family: Avenir, sans-serif;
+  background-color: #F8F8F8 !important;
 }
+
 
 /* font faces */
 @font-face{
@@ -12,64 +12,42 @@
 }
 
 @font-face{
-    src: url(fonts/GopherDisplay-Bold.otf);
+    src: url(fonts/GopherDisplay-Bold.ttf);
     font-family: Gopher-bold;
 }
 
 @font-face{
-    src: url(fonts/GopherDisplay-Bold.otf);
-    font-family: Gopher-bold;
-}
-
-@font-face{
-    src: url(fonts/GopherDisplay-Medium.otf);
+    src: url(fonts/GopherDisplay-Medium.ttf);
     font-family: Gopher-med;
 }
 
 @font-face{
-    src: url(fonts/GTWalsheimPro-Medium.ttf);
-    font-family: GT-med;
+    src: url(fonts/GraphikBold.otf);
+    font-family: GraphB;
 }
 
 @font-face{
-    src: url(fonts/GTWalsheimPro-Regular.ttf);
-    font-family: GT-reg;
+    src: url(fonts/GraphikLight.otf);
+    font-family: GraphL;
 }
+
 @font-face{
-    src: url(fonts/AvenirNext-Bold.ttf);
-    font-family: AvenirNB;
+    src: url(fonts/GTWalsheimPro-Black.ttf);
+    font-family: GTblack;
 }
+
 @font-face{
-    src: url(fonts/AvenirNext-Heavy.ttf);
-    font-family: AvenirNH;
+    src: url(fonts/GT-Walsheim-Pro-Light.ttf);
+    font-family: GTlight;
 }
+
 @font-face{
-    src: url(fonts/AvenirNext-DemiBold.ttf);
-    font-family: AvenirDB;
+    src: url(fonts/GT-Walsheim-Pro-Regular.ttf);
+    font-family: GTreg;
+  
 }
+/*--------------- space ----------------*/
 
-
-/* typography *
-h1{
-    font-family: Gopher-med, Gopher-bold;
-    font-size: 50px;
-}
-
-h2{
-    font-family: GT-reg;
-    font-size: 40px;
-}
-
-h3{
-    font-family: Avenir;
-    font-size: 45px;
-}
-
-h4{
-    font-family: Avenir;
-    font-size: 35px;
-}
-*/
 .whitespace {
       width: 100%;
       height: 100px;
@@ -77,6 +55,9 @@ h4{
 .whitespace1 {
       width: 100%;
       height: 50px;
+}
+.container{
+  margin-left: center%;
 }
 
 /* ------------- nav bar--------------*/
@@ -277,18 +258,17 @@ h4{
   text-decoration-line: underline;
 }
 .text{
+  font-family: GTreg, sans-serif;
   margin-left: 10%;
   font-size: 25px;
   text-align: left;
 }
 /*-----------------ECOTRACKER----------------*/
-.titleECO{
-  font-family: AvenirNB, sans-serif;
-  font-size: 50px;
-  color: #33B083;
-  float: left;
-  margin-left: 12%;
+
+.ecotext{
+  font-family:GTlight, sans-serif;
 }
+
 /*-----------------cupofjoe----------------*/
 .titleCJ{
   font-family: AvenirNB, sans-serif;
