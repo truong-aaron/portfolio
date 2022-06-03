@@ -18,7 +18,7 @@ body {
 }
 
 @font-face{
-    src: url(fonts/GopherDisplay-Medium.otf);
+    src: url(fonts/GopherDisplay-Medium.ttf);
     font-family: Gopher-med;
 }
 
@@ -28,8 +28,8 @@ body {
 }
 
 @font-face{
-    src: url(fonts/GTWalsheimPro-Regular.ttf);
-    font-family: GT-reg;
+    src: url(fonts/GT-Walsheim-Pro-Regular.ttf);
+    font-family: GTreg;
 }
 
 /* typography *
