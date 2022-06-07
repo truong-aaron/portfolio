@@ -268,9 +268,20 @@
 .ecotexttitle{
   color: #64A07D;
   font-family:GraphB, sans-serif;
-
 }
-
+.ecotext{
+  font-family: GTreg;
+  font-size: 20px;
+  margin-left: 25%;
+}
+.bold{
+  font-family: GTblack;
+  font-size: 20px;
+}
+.ecotexmini{
+  font-family: GTlight;
+  font-size: 10px;
+}
 /*-----------------cupofjoe----------------*/
 .titleCJ{
   font-family: AvenirNB, sans-serif;
