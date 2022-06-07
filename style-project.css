@@ -42,7 +42,7 @@
 }
 
 @font-face{
-    src: url(fonts/GT-Walsheim-Pro-Regular.ttf);
+    src: url(fonts/GT-WalsheimPro-Regular.ttf);
     font-family: GTreg;
   
 }
@@ -265,8 +265,10 @@
 }
 /*-----------------ECOTRACKER----------------*/
 
-.ecotext{
-  font-family:GTlight, sans-serif;
+.ecotexttitle{
+  color: #64A07D;
+  font-family:GraphB, sans-serif;
+
 }
 
 /*-----------------cupofjoe----------------*/
