@@ -236,7 +236,12 @@
 }
 
 /*-----------------DEXCOM----------------*/
-.titleD{
+.hyuntexttitle{
+  color: #65A0E4;
+  font-family:GraphB, sans-serif;
+}
+
+/*.titleD{
   font-family: AvenirNB, sans-serif;
   font-size: 50px;
   color: #85D273;
@@ -274,6 +279,7 @@
   font-size: 20px;
   margin-left: 25%;
 }
+
 .bold{
   font-family: GTblack;
   font-size: 20px;
