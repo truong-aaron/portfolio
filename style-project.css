@@ -198,76 +198,17 @@
 }
 
 /* ------------- Hyundai--------------*/ 
-.title{
-	font-family: AvenirDB, sans-serif;
-	font-size: 60px;
-}
-.titleH{
-	font-family: AvenirNB, sans-serif;
-	font-size: 50px;
-  color: #366086;
-  float: left;
-
-}
-.titleH{
-  font-family: AvenirNB, sans-serif;
-  font-size: 50px;
-  color: #366086;
-  float: left;
-}
-.titleH2{
-  font-family: AvenirNB, sans-serif;
-  font-size: 50px;
-  color: #366086;
-  float: left;
-  margin-left: 12%;
-}
-.hal{
-  float: left;
-  margin-left: 8%;
-}
-.text1{
-  margin-left: 20%;
-  font-size: 25px;
-}
-.imgH{
-  width:35%;
-  margin-left: 40%;
-}
-
-/*-----------------DEXCOM----------------*/
 .hyuntexttitle{
   color: #65A0E4;
   font-family:GraphB, sans-serif;
 }
 
-/*.titleD{
-  font-family: AvenirNB, sans-serif;
-  font-size: 50px;
-  color: #85D273;
-  float: left;
+/*-----------------DEXCOM----------------*/
+.dextexttitle{
+  color: #6A6BC7;
+  font-family:GraphB, sans-serif;
 }
-.titleD2{
-  font-family: AvenirNB, sans-serif;
-  font-size: 50px;
-  color: #85D273;
-  float: left;
-  margin-left: 12%;
-}
-.titleD3{
-  font-family: AvenirNB, sans-serif;
-  font-size: 30px;
-  color: black;
-  float: left;
-  margin-left: 12%;
-  text-decoration-line: underline;
-}
-.text{
-  font-family: GTreg, sans-serif;
-  margin-left: 10%;
-  font-size: 25px;
-  text-align: left;
-}
+
 /*-----------------ECOTRACKER----------------*/
 
 .ecotexttitle{
