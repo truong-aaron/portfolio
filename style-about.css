@@ -13,7 +13,7 @@ body {
 }
 
 @font-face{
-    src: url(fonts/GopherDisplay-Bold.otf);
+    src: url(fonts/GopherDisplay-Bold.ttf);
     font-family: Gopher-bold;
 }
 
@@ -23,8 +23,23 @@ body {
 }
 
 @font-face{
-    src: url(fonts/GTWalsheimPro-Medium.ttf);
-    font-family: GT-med;
+    src: url(fonts/GraphikBold.otf);
+    font-family: GraphB;
+}
+
+@font-face{
+    src: url(fonts/GraphikLight.otf);
+    font-family: GraphL;
+}
+
+@font-face{
+    src: url(fonts/GTWalsheimPro-Black.ttf);
+    font-family: GTblack;
+}
+
+@font-face{
+    src: url(fonts/GT-Walsheim-Pro-Light.ttf);
+    font-family: GTlight;
 }
 
 @font-face{
@@ -32,27 +47,7 @@ body {
     font-family: GTreg;
 }
 
-/* typography *
-h1{
-    font-family: Gopher-med, Gopher-bold;
-    font-size: 50px;
-}
 
-h2{
-    font-family: GT-reg;
-    font-size: 40px;
-}
-
-h3{
-    font-family: Avenir;
-    font-size: 45px;
-}
-
-h4{
-    font-family: Avenir;
-    font-size: 35px;
-}
-*/
 .whitespace {
       width: 100%;
       height: 100px;
