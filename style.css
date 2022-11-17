@@ -6,13 +6,14 @@
 
 /* font faces */
 @font-face{
-<<<<<<< HEAD
     src: url(fonts/GIN_Regular.otf);
     font-family: Gin;
-=======
+    
+}
+@font-face{
     src: url(fonts/Avenir.otf);
     font-family: Avenir;
->>>>>>> d6671dddb0ead6a71aee06cb40ab2ef2184c1294
+
 }
 
 @font-face{
