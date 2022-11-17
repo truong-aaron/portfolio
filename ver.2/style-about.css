@@ -1,0 +1,282 @@
+/* MAIN HOME STYLE CSS*/
+
+body {
+  background: linear-gradient(to left top, #E5D7FC, #F0F0F0) fixed;
+}
+
+
+
+/* font faces */
+@font-face{
+    src: url(fonts/Avenir.ttc);
+    font-family: Avenir;
+}
+
+@font-face{
+    src: url(fonts/GopherDisplay-Bold.ttf);
+    font-family: Gopher-bold;
+}
+
+@font-face{
+    src: url(fonts/GopherDisplay-Medium.ttf);
+    font-family: Gopher-med;
+}
+
+@font-face{
+    src: url(fonts/GraphikBold.otf);
+    font-family: GraphB;
+}
+
+@font-face{
+    src: url(fonts/GraphikLight.otf);
+    font-family: GraphL;
+}
+
+@font-face{
+    src: url(fonts/GTWalsheimPro-Black.ttf);
+    font-family: GTblack;
+}
+
+@font-face{
+    src: url(fonts/GT-Walsheim-Pro-Light.ttf);
+    font-family: GTlight;
+}
+
+@font-face{
+    src: url(fonts/GT-Walsheim-Pro-Regular.ttf);
+    font-family: GTreg;
+}
+
+
+.whitespace {
+      width: 100%;
+      height: 100px;
+}
+.whitespace1 {
+      width: 100%;
+      height: 50px;
+}
+
+/* ------------- nav bar--------------*/
+.nav-content {
+    display: inline-block;
+    align-items: center;
+    font-family: Gopher-bold, sans-serif;
+    width: 100%;
+
+}
+
+.nav-logo {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 6%;
+}
+.logo{
+  width: 13%;
+  margin-top: 6%;
+  background-color: transparent;
+
+}
+.logo:hover{
+  content: url('https://res.cloudinary.com/dk5kblf1w/image/upload/v1600497881/logo_odvm7f.png');
+  width: 13%;
+}
+
+/* ------------- end of logo for home --------------*/
+.menu-list {
+    position: relative;
+    display: inline-block;
+    min-width: 300px;
+    text-align: right;
+    right: 100px;
+    height: 80px;
+    float: right;
+}
+
+.menu-list ul#menu {
+    position: relative;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95px;
+
+}
+#menu li {
+    list-style: none;
+    padding: 10px 25px;
+    margin: 0 0.3vh;
+
+}
+#menu li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #6364A5;
+}
+#menu li a:hover{
+  color: #A799FF;
+}
+@media(max-width: 768px){
+  .nav-logo{
+    display: none;
+  }
+  .logo{
+    display: none;
+  }
+  .menu-list{
+    right: 10px;
+  }
+}
+
+/*strikethrough effect for nav*/
+.line2 {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.line2:before, .line:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 80%; /* change where line is */
+  margin-top: -0.5px;
+  background: #74E8B0;
+}
+
+.line2:before {
+  left: -2.5px;
+}
+.line2:after {
+  right: 2.5px;
+  background: #74E8B0;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.line2:hover:before {
+  background: #74E8B0;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.line2:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+
+.ontop{ /*where the word is underlined or over*/
+   -webkit-text-decoration-line: underline; /* Safari */
+   text-decoration-line: underline; 
+}
+
+/*--------------body--------------------*/
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  top: 15px;
+  left: 16px;
+}
+.centered2 {
+  position: absolute;
+  top: 27%;
+  left: 45%;
+  
+}
+.bottom-left {
+  position: absolute;
+  bottom: 20%;
+  left: 3%;
+}
+.text1{
+  color: #D6335A;
+  font-family: Gopher-med;
+  font-size: 30px;
+  text-align: left;
+}
+.text2{
+  color: #252E80;
+  font-family:  Gopher-med;
+  font-size: 30px;
+  text-align: left;
+}
+.text3{
+  color: #802288;
+  font-family:  Gopher-med;
+  font-size: 35px;
+  text-align: left;
+}
+
+.img1{
+  width: 20%;
+  position: absolute;
+  top: 27%;
+  left: 1%;
+}
+.img2{
+  width: 19%;
+  position: absolute;
+  top: 1%;
+  left: 70%;
+}
+.img3{
+  width: 27%;
+  position: absolute;
+  bottom: 10%;
+  left: 60%;
+}
+.img4{
+  width: 20%;
+  position: absolute;
+  top: 27%;
+  left: 20%;
+}
+
+@media(max-width: 768px){
+ .text1{
+  color: #CC224B;
+  font-family: Gopher-med;
+  font-size: 13px;
+  text-align: left;
+}
+.text2{
+  color: #252E80;
+  font-family:  Gopher-med;
+  font-size: 10px;
+  text-align: left;
+}
+.text3{
+  color: #802288;
+  font-family:  Gopher-med;
+  font-size: 13px;
+  text-align: left;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 15%;
+}
+}
+
+/* ------------- footer--------------*/
+.footer {
+ float: left;
+ margin-left: 5%;
+}
+.foot_text{
+ font-family: Avenir;
+ font-size: 20px;
+ color: #2F2951;
+}
+.foot_text2{
+ font-family: Avenir;
+ font-size: 15px;
+ color: #2F2951;
+}
+
+
