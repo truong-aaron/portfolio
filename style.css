@@ -194,9 +194,9 @@
 
 
 
-@media(max-width: 1250px){
+/*@media(max-width: 1250px){
   .about{
-    width: 40%;
+    width: 65%;
   }
   .container ul li{
     float:left;
@@ -209,6 +209,12 @@
     font-family: self_modern;
 }
 
+}*/
+
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 1370px;
+  }
 }
 
 @media(max-width: 768px){ 
