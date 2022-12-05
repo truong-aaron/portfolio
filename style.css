@@ -173,7 +173,7 @@
     list-style: none;
     width:70%;
     height:200px;
-    margin :30px 0px 30px 65px; 
+    margin :40px 0px 30px 65px; 
     border:2px transparent;
     box-sizing: border-box;
     font-family: self_modern;
@@ -181,6 +181,7 @@
 
 .about{
     width: 100%;
+    padding: 0px 0px 50px 0px;
   }
 
 
