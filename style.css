@@ -39,7 +39,6 @@
 /* ------------- nav bar--------------*/
 .nav-content {
     display: inline-block;
-    align-items: center;
     font-family: Gin, sans-serif;
     width: 100%;
    
@@ -48,10 +47,9 @@
 .menu-list {
     position: relative;
     display: inline-block;
-    min-width: 300px;
-    text-align: right;
-    height: 10px;
-    margin-left: 1%;
+    min-width: 100%;
+    text-align: center;
+    height: 10px;W
 }
 
 .menu-list ul#menu {
@@ -62,7 +60,7 @@
     justify-content: center;
     height: 95px;
 
-}
+} 
 #menu li {
     list-style: none;
     padding: 10px 25px;
@@ -71,7 +69,7 @@
 }
 #menu li a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
   color: #E992C6;
 }
 #menu li a:hover{
@@ -139,6 +137,54 @@
   margin-top: -1%;
 }
 /* ------------- home intro--------------*/
+
+.about{
+  width: 50%;
+  float: right;
+  display: inline;
+
+}
+
+.container{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.title{
+  font-family: gin, sans-serif;
+  font-size: 40px;
+}
+
+.container ul{
+    margin: -50px;
+    padding: 0px;
+   
+ }
+                    
+.container ul li{
+    float:left;
+    list-style: none;
+    width:20%;
+    height:160px;
+    margin :80px 0px 40px 55px; 
+    border:2px transparent;
+    box-sizing: border-box;
+    font-family: self_modern;
+}
+
+.container ul li .bottom{
+    width: 100%;
+    height:50px;
+    line-height: 28px;   
+    text-align: left;
+    font-size:20px;
+   
+}
+
+
+
+@media(max-width: 1250px){
 .container{
     width: 90%;
     margin: -20px;
@@ -182,16 +228,7 @@
     font-size: 15px;
    
 }
-
-
-
-@media screen and (max-width:1250px){
-    .container ul li{
-        width:40%;
-        margin-left: 40px;
-         
 }
-
 
 
 /*@media(max-width: 1250px){
@@ -211,11 +248,7 @@
 
 }*/
 
-@media screen and (min-width: 1400px) {
-  .container {
-    width: 1370px;
-  }
-}
+
 
 @media(max-width: 768px){ 
   .about{
