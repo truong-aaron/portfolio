@@ -34,7 +34,7 @@
 <!--HERO IMAGE-->
     <main class="container">
       <div>
-        <img src="images/nutripair/hero.png">
+        <img src="images/truffle/hero.png">
       </div>
 <!--END HERO IMAGE-->
 <br>
@@ -95,12 +95,49 @@
     <h5>Competitive Analysis</h5>
     <p>I evaluated existing medical bill payment applications to gain a better understanding of the market and to discover potential areas for improvement. The three apps compared were Papaya, InstaMed, & Reclaim.</p>
     <p>In my analysis, I scrutinized various aspects of each application using Neilsen's heuristic principles to guide me. By delving into the strengths and weaknesses of these platforms, I was able to identify common pain points and opportunities to improve within the medical bill payment sector.</p>
+    <div class="imgcontainer">
+        <figure style="text-align: center;">
+            <img src="images/truffle/competitive.png">
+            <figcaption style="text-align: left;"></figcaption>
+        </figure>
+    </div>
+    <br>
     <h5>Interviews</h5>
     <p>To gain a better understanding of how comprehensible medical bills are, to the average person, I interviewed some peers. These interviews were structured around asking participants to recall past experiences with paying bills and their perceptions of medical billing processes.</p>
     <p>Additionally, I requested them to walk me through a provided example medical bill to gauge the clarity and understandability of current billing formats.</p>
+    <div class="grid">
+    <div class="imgcontainer">
+        <figure style="text-align: center;">
+            <img src="images/truffle/questions.png">
+            <figcaption style="text-align: left;">Some of the questions I asked interviewees.</figcaption>
+        </figure>
+    </div>
+    <div class="imgcontainer">
+        <figure style="text-align: center;">
+            <img src="images/truffle/examplebill.png">
+            <figcaption style="text-align: left;">Example medical bill for the challenge.</figcaption>
+        </figure>
+    </div>
+    </div>
+    <br>
     <h5>Personas</h5>
     <p>Personas were crafted based on insights from the interviews which offered a deeper understanding into users' specific pain points with medical bills and helped identify potential solutions to alleviate them.</p>
     <p>Synthesizing my interview findings and personas, a clear pattern emerged: users wanted a seamless and convenient online billing experience that is transparent and clear enough for them to easily understand what exactly they are paying for.</p>
+    <div class="grid">
+        <div class="imgcontainer">
+            <figure style="text-align: center;">
+                <img src="images/truffle/persona1.png">
+                <figcaption style="text-align: left;">Persona provided by Truffle Health for the challenge.</figcaption>
+            </figure>
+        </div>
+        <div class="imgcontainer">
+            <figure style="text-align: center;">
+                <img src="images/truffle/person2.png">
+                <figcaption style="text-align: left;">Persona developed from interview findings.</figcaption>
+            </figure>
+        </div>
+        </div>
+        <br>
 <!--END SECTION 4-->
 <br>
 <hr>
@@ -108,32 +145,120 @@
     <h4>Ideation</h4>
     <h5>Sketches</h5>
         <p>In this flow, a user adds a new bill by scanning it with their phone. They'll confirm that the scanned info is correct before proceeding to a bill breakdown and payment screens. At the end of the process, they will receive a receipt.</p>
-    <br>
+        <div class="imgcontainer">
+            <figure style="text-align: center;">
+                <img src="images/truffle/sketches.png">
+                <figcaption style="text-align: left;">Sketch of user flow depicting a bill being scanned and the payment process.</figcaption>
+            </figure>
+        </div>
+        <br>
     <h5>Wireframes</h5>
         <p>In this iteration of the home screen <b>(Figure 1A)</b>, bills are displayed as cards with the ability for users to search or filter them. There is a floating button located on the bottom right of the screen that allows users to scan a bill that wasn't automatically uploaded to their account.</p>
         <p>Users are guided to scan their bill by positioning it inside the frame <b>(Figure 1B/C)</b>. In this scenario, the user isn't required to take a photo but instead, keep the bill in the frame for a few seconds.</p>
         <p>Afterward, they are prompted to confirm or correct auto-filled scan details <b>(Figure 1D)</b> concerning who issued the bill and the patient's account number. Snippets of the bill are positioned above to display what was scanned and provide users with easy recall for confirming crucial information.</p>
+        <div class="imgcontainer">
+            <figure style="text-align: center;">
+                <img src="images/truffle/figure1.png">
+                <figcaption style="text-align: left;"><b>Figure 1.</b> Home page and scanning a new bill.</figcaption>
+            </figure>
+        </div>
+        <br>
         <p>Once the bill issuer and patient account number are validated, the bill is broken down <b>(Figure 2A)</b> into a simplified version that displays the amount the patient needs to pay.</p>
         <p>When the user goes to pay the bill <b>(Figure 2B)</b>, they can edit the bill issuer, account number, amount to pay, and payment method. If they choose to alter their payment method <b>(Figure 2C)</b>, they can select from a variety of options such as credit card, bank account, and HSA account. </p>
+        <div class="imgcontainer">
+            <figure style="text-align: center;">
+                <img src="images/truffle/figure2.png">
+                <figcaption style="text-align: left;"><b>Figure 2.</b>  Bill breakdown and final payment screens</figcaption>
+            </figure>
+        </div>
+        <br>
         <p>Supported with an understandable version of their bill <b>(Figure 3A)</b>, users must have the ability to resolve any charges they believe are incorrect. Before continuing to pay, they can go through a questionnaire that helps resolve errors in service charges <b>(Figure 3B)</b>.</p>
+        <div class="imgcontainer">
+            <figure style="text-align: center;">
+                <img src="images/truffle/figure3.png">
+                <figcaption style="text-align: left;"><b>Figure 3.</b>  Incorrect charges flow (part 1)</figcaption>
+            </figure>
+        </div>
+        <br>
         <p>Upon completion of the questionnaire <b>(Figure 4A)</b>, their bill will be updated to reflect any errors discovered. <b>(Figure 4B)</b>.</p>
-    <br>
+        <div class="imgcontainer">
+            <figure style="text-align: center;">
+                <img src="images/truffle/figure4.png">
+                <figcaption style="text-align: left;"><b>Figure 4.</b>  Incorrect charges flow (part 2)</figcaption>
+            </figure>
+        </div>
+        <br>
     <h5>Prototype</h5>
         <p>When users receive a new bill for the first time, they will be greeted with a pop-up <b>(Figure 5A)</b> that demonstrates an example new bill <b>(Figure 5B)</b> indicated by an orange dot and explains how they can simply pay it or have a guided walkthrough.</p>
         <p>The search bar and sort feature increase accessibility for users should they become inundated with too many bills. On the top right, a gear icon provides access to important settings such as payment methods, account settings, etc.</p>
         <p>The floating “Scan Bill” button is positioned on the bottom right of the screen. Beyond affording one-handed operation, since most of the cards' text is located left and center, its position doesn't block essential information. Users can still easily distinguish paid/unpaid bills by the presence of the two action buttons even if “Scan Bill” may block the “Paid” indicator for paid bill cards.</p>
+        <div class="imgcontainer">
+            <figure style="text-align: center;">
+                <img src="images/truffle/figure5.png">
+                <figcaption style="text-align: left;"><b>Figure 5.</b>  Instructional pop-up and home screen.</figcaption>
+            </figure>
+        </div>
+        <br>
         <p>Comparing the cards from <b>Figure 5B</b> to Truffle Health's original design <b>(Example 1)</b>, the position of the “Learn more” and “Pay” buttons have been shifted to below the card text rather than right-aligned <b>(Example 1)</b>. The purpose of this small change was to prevent clutter, especially with longer institution names, and afford greater button tolerances to crucial features.</p>
+        <div class="imgcontainer">
+            <figure style="text-align: center;">
+                <img src="images/truffle/example1.png">
+                <figcaption style="text-align: left;"><b>Example 1.</b>  Truffle Health's original card design.</figcaption>
+            </figure>
+        </div>
+        <br>
         <p>Scanning process instructions were also simplified and the frame has been made clearer as well. It's no longer defined by small corner marks <b>(Figure 1B)</b>, but instead by a full bounding box <b>(Figure 6A/B)</b>.</p>
         <p>The billing details must be correct. Scanning won't always be 100% accurate, so user input may be necessary. In this instance <b>(Figure 6C)</b>, the auto-filled scan details are correct. If they weren't, the user can correct it themselves.</p>
         <p>Users wouldn't want to do extra work if they're already scanning a bill. If they have to do extra work, it is essential to at least make it easier for them to do so. The scan snippets accommodate by providing support for a user to use them to quickly confirm or correct the information.</p>
-    <p>For this prototype, we are scanning the bill <b>(Example 2)</b> provided by Truffle Health. There is only one charge, a telephone evaluation, with the other points being insurance-related payments.</p>
-    <p>This was a point many of my interviewees noted as confusing since the amount for insurance discounts was placed in the same column as the evaluation charge (without a clear indicator like a minus symbol). It didn't help either that the description for the insurance discounts was overly long and confusing.</p>
-    <p>This problem is solved with a simplified bill <b>(Figure 7A)</b> that lists only the charge and its discounted price. A strikethrough signifies the discount in effect accompanied by a new, color-coded price. The information below explains the meaning of the discount and how an out-of-network charge would be highlighted.</p>
-    <p><b>Figure 7B</b> is the questionnaire users can use to correct or catch errors in service charges. It is accessed through the “Have incorrect charges?” button. If I had more time, I would've liked to A/B test with users and see if they prefer having the process take place before their bill breakdown instead, as an extension of the scan details confirmation.</p>
+        <div class="imgcontainer">
+            <figure style="text-align: center;">
+                <img src="images/truffle/figure6.png">
+                <figcaption style="text-align: left;"><b>Figure 6.</b>  Scanning process and detail confirmation.</figcaption>
+            </figure>
+        </div>
+        <br>
+        <p>For this prototype, we are scanning the bill <b>(Example 2)</b> provided by Truffle Health. There is only one charge, a telephone evaluation, with the other points being insurance-related payments.</p>
+        <p>This was a point many of my interviewees noted as confusing since the amount for insurance discounts was placed in the same column as the evaluation charge (without a clear indicator like a minus symbol). It didn't help either that the description for the insurance discounts was overly long and confusing.</p>
+        <p>This problem is solved with a simplified bill <b>(Figure 7A)</b> that lists only the charge and its discounted price. A strikethrough signifies the discount in effect accompanied by a new, color-coded price. The information below explains the meaning of the discount and how an out-of-network charge would be highlighted.</p>
+        <p><b>Figure 7B</b> is the questionnaire users can use to correct or catch errors in service charges. It is accessed through the “Have incorrect charges?” button. If I had more time, I would've liked to A/B test with users and see if they prefer having the process take place before their bill breakdown instead, as an extension of the scan details confirmation.</p>
+        <div class="imgcontainer">
+            <figure style="text-align: center;">
+                <img src="images/truffle/figure7.png">
+                <figcaption style="text-align: left;"><b>Figure 7.</b>  Bill breakdown and incorrect charges questionnaire.</figcaption>
+            </figure>
+        </div>
+        <br>
+        <div class="imgcontainer">
+            <figure style="text-align: center;">
+                <img src="images/truffle/example2.png">
+                <figcaption style="text-align: left;"><b>Example 2.</b>  Charges from the example bill provided by Truffle Health</figcaption>
+            </figure>
+        </div>
+        <br>
         <p>With the simplified bill <b>(Figure 8A)</b>, the discounted charge price and final amount owed are prominently displayed. However, if users would like to see in-depth details about how their insurance covered them, they can access a breakdown <b>(Figure 8B)</b>, through the question mark next to “Total insurance discount”.</p>
+        <div class="imgcontainer">
+            <figure style="text-align: center;">
+                <img src="images/truffle/figure8.png">
+                <figcaption style="text-align: left;"><b>Figure 8.</b> Insurance benefits breakdown.</figcaption>
+            </figure>
+        </div>
+        <br>
         <p>On the payment screen <b>(Figure 9A)</b>, users can make any final edits and use the scanned bill to confirm all the details are correct.</p>
         <p>Multiple payment methods are available with a clear indicator of which one is being used <b>(Figure 9B)</b>. Since users can pay bills with an app, they should also be able to conveniently pay with Apple/Google Pay which is integrated with their phones.</p>
         <p>Once users finish the payment process, they'll be presented with a receipt. The receipt <b>(Figure 9C)</b> is automatically saved in the app for the user with an option to send a copy via email.</p>
+        <div class="imgcontainer">
+            <figure style="text-align: center;">
+                <img src="images/truffle/figure9.png">
+                <figcaption style="text-align: left;"><b>Figure 9.</b> Payment screen, payment methods, and payment receipt.</figcaption>
+            </figure>
+        </div>
+        <br>
+        <div class="imgcontainer">
+            <figure style="text-align: center;">
+                <img src="images/truffle/figure10.png">
+                <figcaption style="text-align: left;"><b>Figure 10.</b> Overall view of the completed prototype flow.</figcaption>
+            </figure>
+        </div>
 <!--END SECTION 5-->
 <br>
 <hr>
