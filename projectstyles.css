@@ -217,4 +217,8 @@
   [aria-busy=true]:not(input, select, textarea):is(button, [type=submit], [type=button], [type=reset], [role=button]):not(.outline)::before {
     filter: brightness(0) invert(1);
   }
-  
+.imgcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

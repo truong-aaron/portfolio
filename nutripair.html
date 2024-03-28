@@ -15,7 +15,7 @@
 <!--STYLE-->
 <style>
     h4{
-        color: #FF9500;
+        color: #E48500;
     }
 </style>
 <!--END STYLE-->  
@@ -64,10 +64,24 @@
 <br>
 <hr>
 <!--SECTION 2-->
-    <div>
+    <div class="container">
         <h4>Website Overhaul</h4>
             <p>My first project was to redesign the website in preparation for closed alpha testing. The goal was to modernize its aesthetic and provide CTAs that would allow interested parties to join the alpha tests.</p>
             <p>I collaborated extensively with the CEO and tech leads to develop a comprehensive redesign that incorporated their feedback along with findings from my analysis of the original site's pain points and areas for improvement.</p>
+            <br>
+            <div class="imgcontainer">
+            <figure style="text-align: left;">
+                <img src="images/nutripair/old-home.png"/>
+                <figcaption>Previous desktop home page</figcaption>
+            </figure>
+            </div>
+            <br>
+            <div class="imgcontainer">
+                <figure style="text-align: left;">
+                    <img src="images/nutripair/new-home.gif"/>
+                    <figcaption>New desktop home page</figcaption>
+                </figure>
+                </div>
     </div>
 <!--END SECTION 2-->
 <br>
@@ -75,14 +89,14 @@
 <!--SECTION 3-->
     <div>
         <h4>Findings from Alpha Testing</h4>
-        <br>
         <h3>A major problem</h3>
             <p>I joined the design team following the completion of the alpha prototype. Consequently, my focus at the time was centered around conducting usability testing with user groups, remotely over Zoom.</p>
             <p>These sessions proved instrumental in pinpointing pain points and gathering feedback. However, they also revealed a prevalent issue unanimously expressed by our users:</p>
+            <br>
             <article style="background-color:#F8DCD6">
-                <p style="color:black"><b>&#10071 The Nutripair app was suffering from a lack of functionality.</b></p>
-                <p style="color:black"><b>It needed additional features and streamlined user flows to offer a more enriching experience beyond basic nutritional data presentation.</b></p>
-                <p style="color:black"><b>Presently, its appeal to both users and prospective restaurant partners is limited because of its underwhelming state.</b></p></article>
+                <p style="color:black">&#10071 The Nutripair app was suffering from a lack of functionality.</p>
+                <p style="color:black">It needed additional features and streamlined user flows to offer a more enriching experience beyond basic nutritional data presentation.</p>
+                <p style="color:black">Presently, its appeal to both users and prospective restaurant partners is limited because of its underwhelming state.</p></article>
         <br>
         <h3>Guiding Questions</h3>
             <p>To address this challenge, we framed some guiding questions to keep us focused:</p>
@@ -106,8 +120,23 @@
         <p>We conducted interviews with users who participated in our alpha testing and organized focus group discussions to gain deeper insights into their motivations for using the Nutripair app and desired functionalities.</p>
         <p>This process enabled us to highlight differences and similarities among our users and to identify their specific needs, pain points, and motivations.</p>
         <P>We crafted personas and corresponding user flows, providing a structured framework to extract design opportunities.</p>
+            <div class="imgcontainer">
+                <figure style="text-align: left;">
+                    <img src="images/nutripair/identifying-users.png"/>
+                    <figcaption>Example of how we extracted design opportunities from user personas (blurred for confidentiality)</figcaption>
+                </figure>
+                </div>
+    <br>
     <h3>Analyzing Competitors</h3>
+    <div class="imgcontainer">
+        <figure style="text-align: left;">
+            <img src="images/nutripair/competitive-analysis.png"/>
+            <figcaption>Part of our process involved breaking down similar user flows from other apps.</figcaption>
+        </figure>
+        </div>
+        <br>
         <p>The team conducted an in-depth examination of mobile apps with similar user flows and features.</p>
+        <br>
         <p>While analyzing these apps, we asked ourselves:</p>
         <ul>
             <li style="list-style-type: circle;"><i>How do these apps effectively cater to their user bases?</i></li>
@@ -117,13 +146,19 @@
         </ul>
         <br>
         <p>Rather than just presenting users with nutritional data, these apps also provide experiences where users can explore new cuisines, discover local eateries, and personalize their choices.</p>
-        <article style="background-color:#D7FBC1">
-            <b style="color:black">&#128161 Nutripair needed to provide more engaging ways for our users to interact with the entire dining experience, moving beyond merely displaying nutritional labels.</b>
-        </article>
+        <article style="background-color:#D7FBC1; color:black">&#128161 Nutripair needed to provide more engaging ways for our users to interact with the entire dining experience, moving beyond merely displaying nutritional labels.</article>
+    <br>
     <h3>Workshops</h3>
         <p>At this stage, we had pinpointed many key features for the app. To streamline our focus and ensure a manageable workload, we organized multiple workshops and card-sorting sessions.</p>
         <p>These sessions, spearheaded by the design team and myself, involved extensive collaboration with developers and the CEO where we would have everyone rank features based on desirability to users, feasibility, and potential impact on the overall user experience.</p>
         <p>The objective was to align everyone's understanding regarding feature prioritization, the product roadmap, and the overarching vision for Nutripair.</p>
+        <div class="imgcontainer">
+            <figure style="text-align: left;">
+                <img src="images/nutripair/workshop.png"/>
+                <figcaption>Example of a workshop where we grouped functionality and features into commands & queries (blurred for confidentiality)</figcaption>
+            </figure>
+            </div>
+<br>
     <h3>Design Goals</h3>
         <p>Through our discovery and research efforts, we not only identified which features to implement & prioritize but also the fundamental principles that will define the Nutripair experience.</p>
         <p>These core tenets were important to keep in mind as we began iterating. They formed the backbone of our platform, guiding our decisions and ensuring that each new implementation and feature aligns with the following goals:</p>
@@ -142,27 +177,107 @@
         <p>We laid the groundwork for the redesign by mapping out all the various pages and their functionality.</p>
         <p>It was a priority to establish clear paths of navigation and foster organic connections between all the diverse interactions and information presented to users.</p>
         <p>Sketches further helped us explore various possibilities and visualize early on what the interface could look like.</p>
+        <div class="imgcontainer">
+            <figure style="text-align: left;">
+                <img src="images/nutripair/flow-map.png"/>
+                <figcaption>Flow map of a proposed “Discover” page, later reworked to the home page.</figcaption>
+            </figure>
+            </div>
+        <br>
+        <div class="imgcontainer">
+            <figure style="text-align: left;">
+                <img src="images/nutripair/sketches.png"/>
+                <figcaption>Early sketches of home screen iterations from a Crazy 8's brainstorming session.</figcaption>
+            </figure>
+            </div>
         <br>
         <p>Wireframing and “whiteboard” annotations proved instrumental in our iterative design process. We were able to swiftly iterate on various design iterations, receive feedback, and refine our designs.</p>
         <p>Our collaborative approach extended beyond the design team as we worked intimately with developers, even at this early stage.</p>
         <p>By gathering their perspectives and insights on how certain features should look and function, we ensured alignment between design and development objectives from the start.</p>
+        <div class="imgcontainer">
+            <figure style="text-align: left;">
+                <img src="images/nutripair/early-wireframe.png"/>
+                <figcaption>Example of an early wireframe for a planned collections feature.</figcaption>
+            </figure>
+            </div>
+            <br>
     <h3>Design System</h3>
         <p>A major aspect of the redesign was the redevelopment of the component library.</p>
         <p>This overhaul aimed to establish a uniform visual aesthetic throughout the app and to better represent the Nutripair brand.</p>
         <p>We utilized Material Design's guidelines as a starting point to expedite the development of our design system and ensure we adhered to established standards throughout the process.</p>
+        <div class="imgcontainer">
+            <figure style="text-align: left;">
+                <img src="images/nutripair/Color Plaette.png"/>
+                <figcaption>More accessible brand colors were derived from the original Nutripair logo.</figcaption>
+            </figure>
+            </div>
+            <br>
+            <div class="imgcontainer">
+                <figure style="text-align: left;">
+                    <img src="images/nutripair/Typography.png"/>
+                    <figcaption>Typography.</figcaption>
+                </figure>
+                </div>
+            <br>
+                <div class="imgcontainer">
+                    <figure style="text-align: left;">
+                        <img src="images/nutripair/Components.png"/>
+                        <figcaption>Some of the components we designed that helped devs move faster.</figcaption>
+                    </figure>
+                    </div>
+            <br>
     <h3>Prototypes</h3>
         <p>While I'm unable to disclose all of our new updates and go in-depth at this time, here are some of the changes we've implemented since the alpha build.</p>
         <p style="color:red"><i>The screens presented aren't indicative of the final designs & have been slightly modified.</i></p>
-      <h5>Explore with a redesigned Home</h5>
+      <br>
+        <h5>Explore with a redesigned Home</h5>
+      <div class="imgcontainer">
+        <figure style="text-align: left;">
+            <img src="images/nutripair/home.png"/>
+            <figcaption>Alpha home (left) & updated home (right)</figcaption>
+        </figure>
+        </div>
+    <br>
         <p>The original home page offered basic functionality, but through our research, we uncovered that users sought to utilize it as a platform for exploring and discovering new foods.</p>
         <p>In response, the new version provides enhanced capabilities, allowing users to not only filter for restaurants that align with their specific preferences but also easily locate local spots and those curated according to Nutripair's accessibility standards.</p>
-      <h5>More mobile-friendly filtering</h5>  
+    <br>
+        <h5>More mobile-friendly filtering</h5>  
+        <div class="imgcontainer">
+          <figure style="text-align: left;">
+              <img src="images/nutripair/filter.png"/>
+              <figcaption>Alpha filter modal (left) & updated filter modal (right)</figcaption>
+          </figure>
+          </div>
+      <br>
         <p>The previous filter modal lacked intuitiveness and wasn't appealing to users due to its small checkboxes and unattractive aesthetics.</p>
         <p>Recognizing the significance of this feature within the Nutripair app, we undertook a comprehensive overhaul to ensure improved usability and alignment with our new design language.</p>
-      <h5>Updated aesthetics that provide more functionality & information</h5> 
+    <br>
+        <h5>Updated aesthetics that provide more functionality & information</h5>
+        <div class="imgcontainer">
+          <figure style="text-align: left;">
+              <img src="images/nutripair/restaurant.png"/>
+              <figcaption>Alpha menu page (left) & updated menu page (right)</figure>
+          </figure>
+          </div>
+      <br>
+      <div class="imgcontainer">
+        <figure style="text-align: left;">
+            <img src="images/nutripair/item.png"/>
+            <figcaption>Alpha item page (left) & updated item page (right)</figcaption>
+        </figure>
+        </div>
+    <br>
         <p>Improvements have been made to both the restaurant menu and item pages to enhance their user-friendliness, presenting information clearly and understandably.</p>
         <p>Some of the features in development aim to provide users with real-time updates based on their customizations and provide a system of ordering within the Nutripair ecosystem.</p>
-      <h5>Sneak peek of upcoming features</h5>
+    <br>
+        <h5>Sneak peek of upcoming features</h5>
+        <div class="imgcontainer">
+          <figure style="text-align: left;">
+              <img src="images/nutripair/profile.png"/>
+              <figcaption>Alpha settings page (left) & reworked profile + settings page (right)</figcaption>
+          </figure>
+          </div>
+      <br>
         <p>The settings page has been expanded and is now integrated within the Profile section. While I'm unable to provide more detailed insights into certain features such as bookmarks, social profiles, and analytics at this moment, their inclusion adds functionality that supports our previously outlined goals.</p>  
       <h3>This is merely a glimpse of all that we've developed so far at Nutripair. Please feel free to <a href="mailto:adkt033@gmail.com" target="_blank">ask me more</a> about my experience working with such a wonderful team!</h3>  
 <!--END SECTION 5-->
